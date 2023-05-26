@@ -16,17 +16,19 @@
     <link rel="shortcut icon" type="image/x-icon" href="dio.ico">
     <!-- TITULO DA PÁGINA -->
     <title>DIO | Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="summary">RESUMO DO CONTEÚDO: <strong> Aprendendo HTML na Prática </strong><i> com a DIO </i></h1>
     <hr />
     <!-- SUMÁRIO COM LISTA ORDENADA PARA OS ASSUNTOS -->
-    <h2>Sumário</h2>
+    <h2 class="sum">Sumário</h2>
     <ol>
         <li><a href="#intro">INTRODUÇÃO</li>
         <li><a href="#inspector">INSPETOR DE ELEMENTOS</a></li>
         <li><a href="#structure">ESTUTURA BÁSICA DO HTML</a></li>
         <li><a href="#tags">TAGS BÁSICAS</a></li>
+        <li><a href="#page">COMO ESTRUTURAR UMA PÁGINA</a></li>
     </ol>
     
     <br />
@@ -37,7 +39,7 @@
     <!-- LINKS PARA IR AO SUMÁRIO E A REFERENCIAS -->
     <small><a href="#reference"> Links de Referencia </a></small>
     <p> Está página será feita para o desafio do botcamp da DIO, explicarei como eu entendi os assuntos em questão e usarei a ajuda do chatgpt também. Para poder integrar o conteúdo e correções de texto para que fique uma experiência melhor. </p>
-    <p> Neste blog os assunto as seguir serão abordados de uma forma mais resumida. Os assuntos são:  Como usar o inspetor de elementos e para que serve; Estrutura básica do HTML; Atributo básico de Tags; Como estruturar uma página; Falando sobre textos; Listas e Links. </p>
+    <p> Neste blog os assunto as seguir serão abordados de uma forma mais resumida. Os assuntos são:  Como usar o inspetor de elementos e para que serve; Estrutura básica do HTML; Atributo básico de Tags; Como estruturar uma página. </p>
     
     <br />
 
@@ -68,13 +70,21 @@
     <p> O atributo "id" é outro atributo comumente utilizado em tags HTML. Ele permite que os elementos sejam identificados de forma exclusiva na página. Diferente do atributo "class", que pode ser aplicado a vários elementos, o atributo "id" deve ser único em toda a página. O "id" é especialmente útil quando se deseja selecionar um elemento específico para fins de estilização ou manipulação através de JavaScript. Ao atribuir um "id" a um elemento, é possível referenciá-lo facilmente em estilos CSS ou scripts, proporcionando maior controle e interatividade aos elementos na página web. </p>
     <p> Os atributos básicos de tags HTML são recursos poderosos que permitem aos desenvolvedores personalizar e otimizar elementos em uma página web. </p>
 
+    <br />
 
+    <h2 id="page"> Como estruturar uma página </h2>
+    <small><a href="#summary"> Voltar ao Sumário </a></small>
+    <br />
+    <small><a href="#reference"> Links de Referencia </a></small>
+    <p> Ao criar uma página web, a estrutura adequada é crucial para fornecer uma experiência agradável ao usuário e facilitar a navegação e compreensão do conteúdo. Neste artigo, exploraremos algumas dicas valiosas sobre como estruturar uma página web de forma eficiente. Uma das melhores práticas para estruturar uma página web é fazer uso dos elementos semânticos do HTML. Isso inclui elementos como <"header">, <"nav">, <'"main"'>, <"section">, <"article"> e <"footer">. Esses elementos fornecem uma estrutura clara e significativa para o conteúdo da página. O <"header"> é utilizado para o cabeçalho, que geralmente contém o título e a identificação do site. O <"nav"> é usado para a navegação principal, permitindo que os usuários se desloquem pelo site facilmente. O <"main"> envolve o conteúdo principal da página, enquanto o <"section"> divide o conteúdo em partes lógicas. O <"article"> é usado para conteúdo independente e autônomo, como notícias ou postagens de blog. Por fim, o <"footer"> é reservado para o rodapé da página. Ao utilizar esses elementos semânticos, você estará fornecendo uma estrutura clara e significativa para o seu conteúdo, facilitando a compreensão e a navegação do usuário. </p>
+    <p> Além de utilizar elementos semânticos, organizar o conteúdo hierarquicamente é fundamental para uma página web bem estruturada. Use cabeçalhos (<"h1">-<"h6">) para indicar a importância e a hierarquia das seções e subseções da página. O cabeçalho <h1> geralmente é reservado para o título principal da página, seguido pelos cabeçalhos <"h2"> para seções principais, <"h3"> para subseções e assim por diante. Essa hierarquia ajuda os leitores e mecanismos de busca a entenderem a estrutura e a importância relativa do conteúdo. Além disso, utilize listas ordenadas (<"ol">) e não ordenadas (<"ul">) para organizar informações em formato de lista. Isso torna o conteúdo mais legível e facilita a identificação de itens importantes. Ao organizar o conteúdo de forma hierárquica, você estará criando uma experiência de leitura mais agradável e intuitiva para os usuários. </p>
     <!-- LINKANDO O ASSUNTO COM ALGUM VIDEO DE REFERENCIA  -->
     <h2 id="reference"> Referencia </h2>
     <ul>
         <li> <a href="https://youtu.be/nAraKPlx_rc" target="_blank" rel="external"> Veja Como usar o inspetor de elementos e para que serve </a>
         <li> <a href="https://youtu.be/3oSIqIqzN3M" target="_blank" rel="external"> Veja a Estrutura básica do HTML </a>
         <li> <a href="https://youtu.be/IMCGzvUTDIM" target="_blank" rel="external"> Veja mais sobre Atributo básico de Tags </a>
+        <li> <a href="https://youtu.be/n_Etdr7Dbjs" target="_blank" rel="external"> Veja mais sobre Como estruturar uma página </a>
     </ul>
 
 </body>
